@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background: #99E01D;
+    border: 3px solid #000;
+}
+body header {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    border: 8px outset #29E031;
+    justify-content: space-between;
+
+}
+body header .header,body header .score {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+body header .score .points {
+    width: 80px;
+    height: 30px;
+    background: #29E031;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+body .display {
+    display: flex;
+    width: 100%;
+    height: 92%;
+    border: 8px outset #29E031;
+    justify-content: center;
+    align-items: center;
+}
+body .display .gameArea {
+    display: grid;
+    width: 616px;
+    height: 616px;
+    border: 8px outset #29E031;
+    grid-template-columns: repeat(20, 30px);
+    grid-template-rows: repeat(20,30px);
+}
+body .display .gameArea .matriz {
+    border: 1px solid #000;
+}
+
+
