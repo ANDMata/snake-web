@@ -7,6 +7,7 @@ window.addEventListener('load', () =>{
         for(var x = 0; x < 20; x++){
             var cell = document.createElement('div');
             cell.setAttribute("class", "matriz");
+            cell.setAttribute("id","x"+x+"y"+y);
             gameArea.append(cell);
             console.log("itera");
         }
